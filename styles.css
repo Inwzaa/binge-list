@@ -4,7 +4,8 @@ body {
   background-image: url("https://www.shutterstock.com/image-photo/empty-seats-cinema-this-photo-600nw-2150027277.jpg");
   background-size: cover;       
   background-position: center;  
-  background-attachment: fixed; 
+  background-attachment: scroll;
+  min-height: 100vh;
 }
 
 main {
