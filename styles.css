@@ -1,0 +1,103 @@
+body {
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("https://www.shutterstock.com/image-photo/empty-seats-cinema-this-photo-600nw-2150027277.jpg");
+  background-size: cover;       
+  background-position: center;  
+  background-attachment: fixed; 
+}
+
+main {
+  background-color: gray;
+  width: 80%;
+  margin:70px auto 70px auto;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 25px;
+}
+
+.heading {
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  color: firebrick;
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.item {
+  display: block;
+  font-size: 25px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: darkgray;
+  margin-bottom: 15px; 
+  padding: 10px;       
+  border-radius: 10px;
+}
+
+.todo-list {
+  display: block;
+  padding: 5px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.sub-item {
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  list-style-type: square;
+  padding-top: 5px;
+}
+
+.sub-item-link {
+  text-decoration: none;
+  color: crimson;
+}
+
+.sub-item-link:hover {
+  color: sienna;
+}
+
+.sub-item-link:visited {
+  color: maroon;
+}
+
+.sub-item-link:focus {
+  color: salmon;
+  outline: solid;
+}
+
+.sub-item-link:active {
+  color: pink;
+}
+
+.add-input {
+  margin-bottom: 25px;
+  padding-top: 5px;
+  width: 70%;      
+  padding: 8px;    
+  border-radius: 5px;
+  border: none;
+}
+
+.add-btn {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  margin-right: 10px;
+  cursor: pointer; 
+}
+
+input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+  color: #555; 
+}
